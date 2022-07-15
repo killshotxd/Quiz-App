@@ -31,8 +31,10 @@ let currentQuiz = 0;
 
 let score = 0;
 startQuiz();
+
 function startQuiz() {
   deselectAns();
+
   const currentQuestionsFor = questionsFor[currentQuiz];
 
   questionEl.innerText = currentQuestionsFor.question;
